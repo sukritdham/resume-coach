@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  resume-coach:
+    image: resume-coach
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    container_name: resume-coach
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    restart: unless-stopped
