@@ -19,7 +19,7 @@ This project explores how large language models can be used to provide structure
 - Dockerized for consistent local execution
 
 ## Running the Project
-This project is packaged as a ZIP file and runs locally using Docker.
+This project runs locally using Docker.
 
 ➡️ See [DEPLOYMENT.md](./DEPLOYMENT.md) for full setup and execution instructions.
 
